@@ -5,22 +5,24 @@ public class Employee {
 	private String fname;
 	private String lname;
 	private double salary;
-	
+	private int day,month,year;
 	private String doj;
 	
-	Employee(String fname, String lname, double salary, String doj)
+	Employee(String fname, String lname, double salary,int day, int month, int year)
 	{
 		this.fname=fname;
 		this.lname=lname;
 		this.salary=salary;
 		//this.grade=grade;
-		this.doj=doj;
+		this.day=day;
+		this.month=month;
+		this.year=year;
 		id++;
 	}
 	public void Display()
 	{
 		
-		System.out.println("ID: "+id+" First name: "+fname+" Last name: "+lname+" Salary: "+salary+" DOJ: "+doj);
+		System.out.println("ID: "+id+" First name: "+fname+" Last name: "+lname+" Salary: "+salary+" DOJ: "+day+"/"+month+"/"+year);
 		
 	}
 
