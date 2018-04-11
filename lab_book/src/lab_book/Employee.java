@@ -6,7 +6,7 @@ public class Employee {
 	private String lname;
 	private double salary;
 	private int day,month,year;
-	private String doj;
+	
 	
 	Employee(String fname, String lname, double salary,int day, int month, int year)
 	{
