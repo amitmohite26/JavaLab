@@ -3,24 +3,24 @@ package lab3;
 public class ContractEmployee extends Employee {
 	
 	public static int count;
-	private Contractor con;
+	private Contractor contractor;
 	public int noOfHours;
 	public ContractEmployee(int noOfHours){
-		count=count+1;
 		this.noOfHours=noOfHours;
+		count++;
 	}
+	
 	public double getSalary(){
-		salary =  con.rate * noOfHours;
+		salary =  contractor.rate * noOfHours;
 		return salary;
 		
 	}
 	
-
-
 	public Contractor getContractor() {
-		return con;
+		return contractor;
 	}
+	
 	public void setContractor(Contractor contractor) {
-		this.con = contractor;
+		this.contractor = contractor;
 	}
 }

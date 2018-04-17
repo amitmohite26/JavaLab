@@ -2,7 +2,7 @@ package lab3;
 
 public class Contractor {
 	private String name;
-	public double rate;
+	protected double rate;
 	
 	public Contractor(){
 		

@@ -7,17 +7,19 @@ public class Employee{
 	private Date joiningDate;
 	public double salary;
 	public static int count;
+	
 	public Employee(String name,double salary) {
 		this.name = name;
 		//this.joiningDate = joiningDate;
 		this.salary=salary;
 	}
+	
 	public double getSalary() {
 		return salary;
 	}
 	
 	public Employee(){
-	count= count+1;	
+		count++;	
 	}
 	public String getName() {
 		return name;
