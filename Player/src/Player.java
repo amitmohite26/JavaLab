@@ -11,7 +11,7 @@ public class Player {
 	{
 		return name;
 	}
-	public void setName(Game[] game)
+	public void setGame(Game[] game)
 	{
 		this.game=game;
 	}
@@ -19,4 +19,5 @@ public class Player {
 	{
 		return game;
 	}
+	
 }
