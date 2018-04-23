@@ -25,7 +25,7 @@ public class Entry3 {
 		}
 		 else
 			{
-				System.out.println("Plays less number of games");
+				System.out.println("Player has less than 2 games");
 			}	
 		System.out.println("============================");
 		
@@ -46,7 +46,7 @@ public class Entry3 {
 			}
 			else
 			{
-				System.out.println("Plays less number of games");
+				System.out.println("Player has less than 2 games");
 			}
 			System.out.println("============================");
 				
@@ -67,7 +67,7 @@ public class Entry3 {
 				}
 					else
 					{
-						System.out.println("Plays less number of games");
+						System.out.println("Player has less than 2 games");
 					}	
 				System.out.println("============================");
 	//player4
@@ -87,7 +87,7 @@ public class Entry3 {
 					}
 					else
 					{
-						System.out.println("Plays less number of games");
+						System.out.println("Player has less than 2 games");
 					}	
 					System.out.println("============================");
 	//player5
@@ -106,7 +106,7 @@ public class Entry3 {
 						}
 						else
 						{
-							System.out.println("Plays less number of games");
+							System.out.println("Player has less than 2 games");
 						}	
 						System.out.println("============================");
 		}
